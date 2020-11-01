@@ -157,7 +157,7 @@ lblinstruct = Label(root, text = "See the images shown and memorise them \n Once
 lblinstruct.pack(pady=(10,0))
 img1 = PhotoImage(file='proj1.png')
 lblimage1 = Label(root, image=img1,background="#ffffff",justify="center")
-lblimage1.pack(pady=(10,0))# THIS IS USED TO DIPLAY THE 10 PICTURES
+lblimage1.pack(pady=(10,0))# THIS IS USED TO DISPLAY THE 10 PICTURES
 def Closelabel():
     lblimage1.destroy()
 
