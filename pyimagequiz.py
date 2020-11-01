@@ -73,7 +73,7 @@ def showresult(score):#USING THIS FUNCTION TO SHOW RESULT OR SCORE
 
 
 
-def calc():# THIS FUNCTION IS USED FOR MATCHING ANSWERS AND INCEMENT OF SCORE
+def calc():# THIS FUNCTION IS USED FOR MATCHING ANSWERS AND INCREMENT OF SCORE
     global indexes,user_answer,answers
     x=0
     score=0
