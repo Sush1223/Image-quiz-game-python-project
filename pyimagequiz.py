@@ -92,7 +92,7 @@ def selected():
     global ques
     x= radvar.get()
     user_answer.append(x)
-    radvar.set(-1)# THIS IS UDED TO CHANGE THE PRESELECTED RADIOBUTTON
+    radvar.set(-1)# THIS IS USED TO CHANGE THE PRESELECTED RADIOBUTTON
     if ques < 5:
         lbquest.config(text=question[indexes[ques]])
         r1['text'] = answers_choice[indexes[ques]][0]
